@@ -1,0 +1,26 @@
+{
+  "name": "hn-mcp-server",
+  "version": "1.0.0",
+  "description": "MCP server for Hacker News - access stories, comments, users, and search via the HN API",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "hn-mcp-server": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsx src/index.ts"
+  },
+  "keywords": ["mcp", "hacker-news", "hn", "model-context-protocol"],
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.0",
+    "zod": "^3.25.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.0",
+    "tsx": "^4.19.0",
+    "@types/node": "^22.0.0"
+  }
+}

@@ -1,0 +1,42 @@
+<evaluation>
+  <qa_pair>
+    <question>What is the username of the author who posted the very first item on Hacker News (item ID 1)?</question>
+    <answer>pg</answer>
+  </qa_pair>
+  <qa_pair>
+    <question>Look up item 8863 on Hacker News. What is the title of this story and who submitted it? Provide the answer in the format "Title by username".</question>
+    <answer>My YC app: Dropbox - Throw away your USB drive by dhouston</answer>
+  </qa_pair>
+  <qa_pair>
+    <question>Find the comment with ID 2921983 on Hacker News. Who wrote this comment, and what is the ID of its parent item?</question>
+    <answer>norvig, parent ID 2921506</answer>
+  </qa_pair>
+  <qa_pair>
+    <question>Look up the Hacker News user "pg". What does their "about" field say?</question>
+    <answer>Bug fixer.</answer>
+  </qa_pair>
+  <qa_pair>
+    <question>What is the URL linked in the very first Hacker News story (item ID 1)?</question>
+    <answer>http://ycombinator.com</answer>
+  </qa_pair>
+  <qa_pair>
+    <question>How many direct top-level comments (kids) does the Ask HN post with ID 121003 have? Also, what is the title of this post?</question>
+    <answer>3 comments, titled "Ask HN: The Arc Effect"</answer>
+  </qa_pair>
+  <qa_pair>
+    <question>Search Hacker News for stories about "Dropbox" and find the earliest result. Who is the author of that earliest story?</question>
+    <answer>dhouston</answer>
+  </qa_pair>
+  <qa_pair>
+    <question>Look up item 8863 and then retrieve its first comment (the first ID in the kids array). Who authored that first comment?</question>
+    <answer>BrandonM</answer>
+  </qa_pair>
+  <qa_pair>
+    <question>What type of item is HN item 192327, and who posted it?</question>
+    <answer>job, posted by justin</answer>
+  </qa_pair>
+  <qa_pair>
+    <question>Look at the Hacker News user "dang". According to their profile, what email address do they suggest for sending HN questions?</question>
+    <answer>hn@ycombinator.com</answer>
+  </qa_pair>
+</evaluation>
